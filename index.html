@@ -1,0 +1,63 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador</title>
+    </head>
+
+    <body>
+        <header> 
+            <img id="logo" src="images/logo.png" alt="Logo de alura">
+            <p id="title-p">Encriptador de texto 01</p>
+        </header>
+        
+        <main>
+
+            <section class="section1">
+                <textarea class="area-InitialText" placeholder="Ingrese el texto a encriptar"></textarea> 
+
+                <p id="section1-p">Solo minusculas.</p>   
+
+                <div class="button-container">
+                    <input type="button" class="encrypt-btn" value="Encriptar">
+                    <input type="button" class="decrypt-btn" value="Desencriptar">
+                </div>
+            </section>
+          
+            <section class="section2">
+                <div class="img-container">
+                    <img class="imgEye" src="images/eye.png">
+                </div>
+
+                <div class="h3-container">
+                    <h3>Ningun texto fue encontrado</h3>
+                </div>
+                <div class="p-container">
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+
+                <div class="encrypted-container">
+                    <h3>Texto Encriptado:</h3>
+                    <textarea name="texto encriptado" id="encrypted-text" cols="20" rows="20"></textarea>
+                </div>
+
+                <div class="copy-container">
+                    <input type="button" class="copy-btn" value="Copiar">
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <p id="footer-p">Creado por Tomás S. Munilla</p>
+            <p id="footer-p">Para Alura Latam</p>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>

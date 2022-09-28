@@ -1,0 +1,21 @@
+encriptador 01?
+
+paleta de colores EVA-01
+
+el usuario ingresa un texto en el panel izquierdo para ser codificado.
+(el texto entra en color naranja)
+
+la pagina codifica el texto y lo imprime en el panel derecho.
+(el texto sale en color verde)
+
+BOTONES: El boton izquierdo ("Encriptar") va a ser de color VERDE (#52d053).
+         El boton derecho ("Desencriptar") va a ser de color NARANJA (#e6770b), probablemente
+         con una transparencia o algo para que no sea un color tan fuerte, y llame más la atención
+         el boton VERDE.
+
+
+
+TEXTO: Tratar de poner tipografia evangelion. Poner palabras de botones en NEGRITA.
+
+PIE DE PAGINA: Agregar etiqueta FOOTER en html. Recordar aula 7 de curso html y css parte 2
+
